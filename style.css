@@ -1,0 +1,58 @@
+body{
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 40px;
+	line-height: 80px;
+	text-shadow: 0 0 1px black;
+	margin: 0 20px 0 0;
+}
+
+h2{
+	display: inline-block;
+	font-size: 60px;
+	line-height: 80px;
+	text-shadow: 0px 0px 3px black;
+	margin: 20px 0 20px 0;
+}
+
+div.ampel {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.6);
+	margin: 2px;
+}
+
+div.yes {
+	background: green;
+}
+
+div.maybe {
+	background: orange;
+}
+
+div.no {
+	background: red;
+}
+
+div#footer {
+	margin: 50px 0 0 0;
+}
+
+div#footer p{
+	color: rgb(160,160,160)
+}
+
+div#footer p a{
+	color: rgb(160,160,160)
+}
+
+div#footer a:hover{
+	color: rgb(0,0,0);
+}
+
